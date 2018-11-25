@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnOPERAR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginLeft="153dp"
+        android:layout_marginBottom="130dp"
+        android:text="@string/btStr_OPERAR" />
+
+    <TextView
+        android:id="@+id/txtView_USUARIO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/txtViewStr_USUARIO"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtViewPASSWORD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="149dp"
+        android:text="@string/txtViewStr_PASSWORD"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edTxtUSUARIO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="57dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/edTxtStr_USUARIO"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/edTxtPASSWORD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="219dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/edTxtStr_contrasenha" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UserPass</string>
+
+    <string name="btStr_OPERAR">OPERAR</string>
+    <string name="edTxtStr_USUARIO">USUARIO</string>
+    <string name="txtViewStr_USUARIO">USUARIO</string>
+    <string name="txtViewStr_PASSWORD">CONTRASEÑA</string>
+    <string name="edTxtStr_contrasenha">CONTRASEÑA</string>
+
+</resources>
